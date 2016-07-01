@@ -29,8 +29,11 @@
 .section-main {
 	padding-left: 34px;
 }
-.entry-meta, .entry-meta a {
+.entry-meta {
 	color : #bfbfbf;
+	a {
+		color: #bfbfbf;
+	}
 }
 .post {
 	border-bottom: solid 3px #bfbfbf;
