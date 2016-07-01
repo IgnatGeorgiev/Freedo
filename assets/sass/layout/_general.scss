@@ -4,3 +4,30 @@
 		max-width: 100%;
 	}
 }
+.content-area {
+	max-width: 550px;
+}
+.widget_recent_comments {
+  display: inline-block;
+  float: left;
+}
+.widget_meta {
+	display: inline-block;
+	float: right;
+}
+.widget-title {
+	margin-bottom : 20px;
+	border-bottom: solid 2px black;
+}
+.recentcomments {
+	border-bottom:solid 1px #bfbfbf;
+}
+.medium-8 {
+	max-width: 600px;
+}
+.section-main {
+	padding-left: 34px;
+}
+.entry-meta, .entry-meta a {
+	color : #bfbfbf;
+}
