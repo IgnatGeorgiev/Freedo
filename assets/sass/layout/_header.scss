@@ -1,8 +1,33 @@
 .site-header {
 	position: relative;
+	padding-left:5px;
+	padding-top: 10px;
 	// height: $layout-header-height;
 }
-
 .site-branding {
+	display: block;
+}
+.site-title {
 	display: inline-block;
+}
+.site-description {
+	color: #828181;
+	display: inline-block;
+	margin-top: 14px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.main-navigation {
+	width: 100%;
+	border-top: solid 1px black;
+	position: relative;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:0px;
+	text-align: left;
+}
+.main-navigation li {
+	display: inline-block;
+	margin-left: 5px;
+
 }

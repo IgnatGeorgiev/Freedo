@@ -2,7 +2,7 @@
  * DX MOBILE MENU
  * ============================================================================
  * Basic styling and settings for the mobile menu. Edit to match each theme's
- * design. 
+ * design.
  *
  * @version 1.1
  */
@@ -86,7 +86,7 @@ body.is-menu-opened {
 			color: $menu-item-color;
 		}
 	}
-	
+
 	/**
 	 * Begin the mobile menu styling.
 	 */
@@ -125,7 +125,6 @@ body.is-menu-opened {
 
 .menu-primary-container {
 	// Needed to fit the custom button
-	float: right;
 }
 
 /**

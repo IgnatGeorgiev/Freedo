@@ -166,7 +166,7 @@ body.admin-bar {
       padding-top: 46px; } }
 
 body {
-  font-family: Noto, "Open Sans", sans-serif;
+  font-family: Roboto, "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.7; }
 
@@ -350,6 +350,13 @@ textarea {
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
+
+a {
+  text-decoraton: none;
+  color: black; }
+
+a:hover {
+  color: black; }
 
 h1,
 h2,
@@ -1136,23 +1143,62 @@ hr.clear {
   position: relative;
   z-index: 1; }
 
-.row.narrow {
-  max-width: 800px; }
+.row {
+  max-width: 100%; }
+  .row.narrow {
+    max-width: 100%; }
 
 .site-header {
-  position: relative; }
+  position: relative;
+  padding-left: 5px;
+  padding-top: 10px; }
 
 .site-branding {
+  display: block; }
+
+.site-title {
   display: inline-block; }
+
+.site-description {
+  color: #828181;
+  display: inline-block;
+  margin-top: 14px;
+  margin-left: 10px;
+  font-size: 14px; }
+
+.main-navigation {
+  width: 100%;
+  border-top: solid 1px black;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  text-align: left; }
+
+.main-navigation li {
+  display: inline-block;
+  margin-left: 5px; }
+
+.entry-footer {
+  padding-left: 2px; }
+
+.edit-link {
+  padding-left: 10px; }
+
+#colophon {
+  padding-top: 10px; }
 
 /**
  * The standard section wrapper. Use this with other classes for the base styling.
  */
+div.secondary {
+  padding-top: 10%; }
+
 /**
  * DX MOBILE MENU
  * ============================================================================
  * Basic styling and settings for the mobile menu. Edit to match each theme's
- * design. 
+ * design.
  *
  * @version 1.1
  */
@@ -1212,9 +1258,6 @@ hr.clear {
       background: #f0f0f0; }
     .main-navigation .menu-item.is-extended .sub-menu {
       display: block; } }
-
-.menu-primary-container {
-  float: right; }
 
 /**
  * Displaying the mobile menu on click.
