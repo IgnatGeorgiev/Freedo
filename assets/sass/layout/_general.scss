@@ -18,6 +18,7 @@
 .widget-title {
 	margin-bottom : 20px;
 	border-bottom: solid 2px black;
+	font-size:18px;
 }
 .recentcomments {
 	border-bottom:solid 1px #bfbfbf;
@@ -30,4 +31,9 @@
 }
 .entry-meta, .entry-meta a {
 	color : #bfbfbf;
+}
+.post {
+	border-bottom: solid 3px #bfbfbf;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
 }
