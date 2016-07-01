@@ -28,21 +28,20 @@
 	margin-bottom:10px;
 	margin-left:0px;
 	text-align: left;
-}
-.main-navigation li {
-	display: inline-block;
-	margin-left: 30px;
-	margin-right: 30px;
-	padding-top: 5px;
-
-}
-.main-navigation a {
-	color:#828181
-}
-.main-navigation li:hover {
-	border-top: 3px solid black;
-}
-.main-navigation a:hover {
-
-	color : black;
+		li {
+		display: inline-block;
+		margin-left: 30px;
+		margin-right: 30px;
+		padding-top: 5px;
+		}
+		li:hover {
+		border-top: 3px solid black;
+		}
+		a {
+		color:#828181
+		}
+		a:hover {
+		color : black;
+		}
+	
 }
