@@ -21,13 +21,15 @@
 	width: 100%;
 	border-top: solid 1px #bfbfbf;
 	position: relative;
-	padding-top:5px;
+	line-height: 34px;
 	margin: 10px 0px 20px 0px;
 	text-align: left;
 	.page_item {
-		display: inline;
-		margin: 5px 30px 0px 30px;
-		padding-top:5px;
+		display: inline-block;
+		margin: 0px 30px 0px 30px;
+		height:34px;
+		border-top: 3px solid white;
+
 	}
 	.page_item:hover {
 		border-top: 3px solid black;
