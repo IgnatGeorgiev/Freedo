@@ -24,19 +24,18 @@
 	padding-top:5px;
 	margin: 10px 0px 20px 0px;
 	text-align: left;
-		li {
-			display: inline;
-			margin: 5px 30px 0px 30px;
-			padding-top:5px;
-		}
-		li:hover {
-			border-top: 3px solid black;
-		}
-		a {
-			color:#828181
-		}
-		a:hover {
-			color : black;
-		}
-
+	.page_item {
+		display: inline;
+		margin: 5px 30px 0px 30px;
+		padding-top:5px;
+	}
+	.page_item:hover {
+		border-top: 3px solid black;
+	}
+	a {
+		color:#828181
+	}
+	a:hover {
+		color : black;
+	}
 }

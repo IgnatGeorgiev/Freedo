@@ -1209,11 +1209,11 @@ hr.clear {
   padding-top: 5px;
   margin: 10px 0px 20px 0px;
   text-align: left; }
-  .main-navigation li {
+  .main-navigation .page_item {
     display: inline;
     margin: 5px 30px 0px 30px;
     padding-top: 5px; }
-  .main-navigation li:hover {
+  .main-navigation .page_item:hover {
     border-top: 3px solid black; }
   .main-navigation a {
     color: #828181; }
