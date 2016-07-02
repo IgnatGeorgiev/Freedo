@@ -1228,7 +1228,8 @@ hr.clear {
   padding-left: 10px; }
 
 #colophon {
-  padding-top: 10px; }
+  padding-top: 10px;
+  margin-left: 34px; }
 
 /**
  * The standard section wrapper. Use this with other classes for the base styling.
