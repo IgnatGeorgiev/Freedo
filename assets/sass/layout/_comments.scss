@@ -1,0 +1,31 @@
+.comments-area {
+  padding-top: 20px;
+  .comments-title {
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  .comment-body{
+    padding-bottom:20px;
+    border-bottom: 3px solid #bfbfbf;
+    padding-top:20px;
+
+  }
+}
+.comment-metadata{
+  a{
+    color: #bfbfbf;
+  }
+}
+.comment-respond {
+  padding-top : 20px;
+}
+.form-submit {
+  .submit {
+    background-color: #ffffff;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px ;
+  }
+  .submit:hover {
+    background-color: #bfbfbf;
+  }
+}
