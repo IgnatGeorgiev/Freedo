@@ -34,7 +34,8 @@
 	padding-bottom:5px;
 }
 .recentcomments {
-	border-bottom:solid 3px #bfbfbf;
+	border-bottom: 1px dashed #bfbfbf;
+	margin-bottom: 5px;
 }
 .medium-8 {
 	max-width: 600px;
@@ -53,6 +54,17 @@
 	margin-bottom: 50px;
 	padding-bottom: 10px;
 }
-.medium-4 {
-
+.entry-footer {
+	a{
+		color:#bfbfbf;
+	}
+	a:hover {
+		color:#404040;
+	}
+}
+.entry {
+	padding-bottom: 50px;
+	.entry-header {
+		padding-bottom: 20px;
+	}
 }

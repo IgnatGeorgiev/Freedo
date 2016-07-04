@@ -1174,7 +1174,8 @@ hr.clear {
   padding-bottom: 5px; }
 
 .recentcomments {
-  border-bottom: solid 3px #bfbfbf; }
+  border-bottom: 1px dashed #bfbfbf;
+  margin-bottom: 5px; }
 
 .medium-8 {
   max-width: 600px; }
@@ -1191,6 +1192,17 @@ hr.clear {
   border-bottom: solid 3px #bfbfbf;
   margin-bottom: 50px;
   padding-bottom: 10px; }
+
+.entry-footer a {
+  color: #bfbfbf; }
+
+.entry-footer a:hover {
+  color: #404040; }
+
+.entry {
+  padding-bottom: 50px; }
+  .entry .entry-header {
+    padding-bottom: 20px; }
 
 .site-header {
   position: relative;
@@ -1226,7 +1238,8 @@ hr.clear {
   .main-navigation a {
     color: #828181; }
   .main-navigation a:hover {
-    color: black; }
+    color: black;
+    font-weight: bold; }
 
 .entry-footer {
   padding-left: 2px; }
