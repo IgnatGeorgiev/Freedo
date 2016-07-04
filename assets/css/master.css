@@ -1149,25 +1149,32 @@ hr.clear {
   .row.narrow {
     max-width: 100%; }
 
+.widget-area .widget {
+  padding-left: 40px; }
+
 .content-area {
   max-width: 550px; }
 
 .widget_recent_comments {
   display: inline-block;
+  padding-bottom: 50px;
   float: left; }
 
 .widget_meta {
   display: inline-block;
-  float: right; }
+  width: 165px; }
+  .widget_meta li {
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #bfbfbf; }
 
 .widget-title {
   margin-bottom: 20px;
-  border-bottom: solid 2px black;
+  border-bottom: solid 3px black;
   font-size: 18px;
   padding-bottom: 5px; }
 
 .recentcomments {
-  border-bottom: solid 1px #bfbfbf; }
+  border-bottom: solid 3px #bfbfbf; }
 
 .medium-8 {
   max-width: 600px; }
