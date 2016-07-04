@@ -16,6 +16,7 @@
 	display: inline-block;
 	margin: 14px 0px 0px 10px;
 	font-size: 14px;
+	font-weight: bold;
 }
 .main-navigation {
 	width: 100%;
@@ -28,11 +29,11 @@
 		display: inline-block;
 		margin: 0px 30px 0px 30px;
 		height:34px;
-		border-top: 3px solid white;
+		border-top: 4px solid white;
 
 	}
 	.page_item:hover {
-		border-top: 3px solid black;
+		border-top: 4px solid black;
 	}
 	a {
 		color:#828181;
@@ -40,6 +41,15 @@
 	}
 	a:hover {
 		color : black;
-		font-weight:bold;
+	}
+}
+.search-form {
+	float:right;
+	.search-submit {
+		display:none;
+	}
+	.search-field {
+		border:none;
+		outline:none;
 	}
 }

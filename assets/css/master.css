@@ -1149,9 +1149,6 @@ hr.clear {
   .row.narrow {
     max-width: 100%; }
 
-.widget-area .widget {
-  padding-left: 40px; }
-
 .content-area {
   max-width: 550px; }
 
@@ -1161,21 +1158,22 @@ hr.clear {
   float: left; }
 
 .widget_meta {
-  display: inline-block;
-  width: 165px; }
+  display: inline-block; }
   .widget_meta li {
     padding-bottom: 5px;
-    border-bottom: 1px dashed #bfbfbf; }
+    border-bottom: 1px dashed #bfbfbf;
+    padding-top: 5px; }
 
 .widget-title {
   margin-bottom: 20px;
-  border-bottom: solid 3px black;
+  border-bottom: solid 4px black;
   font-size: 18px;
   padding-bottom: 5px; }
 
 .recentcomments {
   border-bottom: 1px dashed #bfbfbf;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  padding-top: 5px; }
 
 .medium-8 {
   max-width: 600px; }
@@ -1189,7 +1187,7 @@ hr.clear {
     color: #bfbfbf; }
 
 .post {
-  border-bottom: solid 3px #bfbfbf;
+  border-bottom: solid 4px #bfbfbf;
   margin-bottom: 50px;
   padding-bottom: 10px; }
 
@@ -1199,10 +1197,20 @@ hr.clear {
 .entry-footer a:hover {
   color: #404040; }
 
-.entry {
-  padding-bottom: 50px; }
-  .entry .entry-header {
-    padding-bottom: 20px; }
+.entry .entry-header {
+  padding-bottom: 20px; }
+
+.page-header {
+  padding-bottom: 20px; }
+
+.more-link {
+  font-weight: bold; }
+
+.widget {
+  width: 80%; }
+
+.comment-form-comment label {
+  display: none; }
 
 .site-header {
   position: relative;
@@ -1219,7 +1227,8 @@ hr.clear {
   color: #828181;
   display: inline-block;
   margin: 14px 0px 0px 10px;
-  font-size: 14px; }
+  font-size: 14px;
+  font-weight: bold; }
 
 .main-navigation {
   width: 100%;
@@ -1232,14 +1241,21 @@ hr.clear {
     display: inline-block;
     margin: 0px 30px 0px 30px;
     height: 34px;
-    border-top: 3px solid white; }
+    border-top: 4px solid white; }
   .main-navigation .page_item:hover {
-    border-top: 3px solid black; }
+    border-top: 4px solid black; }
   .main-navigation a {
     color: #828181; }
   .main-navigation a:hover {
-    color: black;
-    font-weight: bold; }
+    color: black; }
+
+.search-form {
+  float: right; }
+  .search-form .search-submit {
+    display: none; }
+  .search-form .search-field {
+    border: none;
+    outline: none; }
 
 .entry-footer {
   padding-left: 2px; }
@@ -1251,15 +1267,14 @@ hr.clear {
   padding-top: 10px;
   margin-left: 34px; }
 
-.comments-area {
+.comments-area .comments-title {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.comments-area .comment-body {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #bfbfbf;
   padding-top: 20px; }
-  .comments-area .comments-title {
-    padding-top: 10px;
-    padding-bottom: 10px; }
-  .comments-area .comment-body {
-    padding-bottom: 20px;
-    border-bottom: 3px solid #bfbfbf;
-    padding-top: 20px; }
 
 .comment-metadata a {
   color: #bfbfbf; }
@@ -1274,6 +1289,9 @@ hr.clear {
 
 .form-submit .submit:hover {
   background-color: #bfbfbf; }
+
+.comment-form-comment label {
+  display: none; }
 
 /**
  * The standard section wrapper. Use this with other classes for the base styling.

@@ -1,5 +1,4 @@
 .comments-area {
-  padding-top: 20px;
   .comments-title {
     padding-top:10px;
     padding-bottom:10px;
@@ -28,4 +27,9 @@
   .submit:hover {
     background-color: #bfbfbf;
   }
+}
+.comment-form-comment {
+	label {
+		display:none;
+	}
 }

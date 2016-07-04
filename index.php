@@ -54,9 +54,7 @@ get_header(); ?>
 					</main><!-- #main -->
 				</div><!-- #primary -->
 			</div><!-- .columns medium-8 -->
-			<div class="columns medium-4">
 				<?php get_sidebar(); ?>
-			</div><!-- .columns medium-4 -->
 		</div><!-- .row -->
 	</section><!-- .section-fullwidth section-main -->
 

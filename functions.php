@@ -118,7 +118,15 @@ function dxstarter_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'dxstarter_content_width', 640 );
 }
 add_action( 'after_setup_theme', 'dxstarter_content_width', 0 );
-
+/**
+* Modify the "Read More" text
+*
+*
+*/
+function modify_read_more_link() {
+    return '<a class="more-link" href="' . get_permalink() . '">READ MORE</a>';
+}
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
 /**
  * Register widget area.
  *
@@ -134,6 +142,15 @@ function dxstarter_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+	register_sidebar( array (
+	'name'          => esc_html__( 'Sidebar', 'dxstarter' ),
+	'id'            => 'sidebar-2',
+	'description'   => '',
+	'before_widget' => '<section id="%1$s" class="widget %2$s">',
+	'after_widget'  => '</section>',
+	'before_title'  => '<h2 class="widget-title">',
+	'after_title'   => '</h2>',
+));
 }
 add_action( 'widgets_init', 'dxstarter_widgets_init' );
 
