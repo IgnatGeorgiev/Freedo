@@ -7,6 +7,7 @@
  * @return {color}        The color of the text depending on background.
  */
 @import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -190,7 +191,7 @@ a {
 
 h1, h2, h3, h4, h5 {
   line-height: 1.2;
-  font-family: Roboto, Helvetica, sans-serif;
+  font-family: Montserrat, Helvetica, sans-serif;
   margin: 0; }
 
 blockquote {
@@ -1209,8 +1210,12 @@ hr.clear {
 .widget {
   width: 80%; }
 
+.entry-content {
+  font-family: Roboto, "Open Sans", sans-serif; }
+
 .site-header {
   position: relative;
+  font-family: Montserrat, Helvetica, sans-serif;
   padding: 10px 0px 0px 5px; }
 
 .site-branding {
@@ -1233,7 +1238,8 @@ hr.clear {
   position: relative;
   line-height: 34px;
   margin: 10px 0px 20px 0px;
-  text-align: left; }
+  text-align: left;
+  font-family: Montserrat, Helvetica, sans-serif; }
   .main-navigation .page_item {
     display: inline-block;
     margin: 0px 30px 0px 30px;
@@ -1252,7 +1258,8 @@ hr.clear {
     display: none; }
   .search-form .search-field {
     border: none;
-    outline: none; }
+    outline: none;
+    font-family: Montserrat, Helvetica, sans-serif; }
 
 .entry-footer {
   padding-left: 2px; }
