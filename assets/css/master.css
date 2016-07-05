@@ -1219,12 +1219,13 @@ hr.clear {
   background-image: url("../images/comment-bubble.png");
   background-size: 100% 100%;
   text-align: center;
-  padding-top: 3px;
+  padding-top: 4px;
   width: 43px;
   height: 36px;
   position: relative;
   left: 500px;
-  bottom: 50px; }
+  bottom: 50px;
+  font-family: Montserrat, Helvetica, sans-serif; }
 
 .site-header {
   position: relative;

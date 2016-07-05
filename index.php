@@ -25,11 +25,11 @@ get_header(); ?>
 						if ( has_post_thumbnail() ) {
 							the_post_thumbnail();
 						} ?>
+						<a href="<?php comments_link(); ?>">
 						<div class="comment-bubble">
-   						<a href="<?php comments_link(); ?>">
       				<?php comments_number( '0', '1 ', '% ' ); ?>
-   						</a>
 						</div>
+						</a>
 						<?php
 						if ( is_home() && ! is_front_page() ) : ?>
 							<header class="page-heading">
