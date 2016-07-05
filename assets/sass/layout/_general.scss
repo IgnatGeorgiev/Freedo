@@ -41,6 +41,9 @@
 }
 .entry-meta {
 	color : #bfbfbf;
+	.posted-on {
+		font-weight:bold;
+	}
 	a {
 		color: #bfbfbf;
 	}
@@ -74,4 +77,15 @@
 }
 .entry-content {
 	font-family:$font-sans;
+}
+.comment-bubble {
+   background-image: url('../images/comment-bubble.png');
+	 background-size:100% 100%;
+	 text-align:center;
+	 padding-top:3px;
+   width: 43px;
+   height: 36px;
+	 position:relative;
+	 left:500px;
+	 bottom:50px;
 }

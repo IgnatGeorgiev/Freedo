@@ -177,3 +177,4 @@ function dxstarter_remove_html_margin() {
 	remove_action( 'wp_head', '_admin_bar_bump_cb' );
 }
 add_action( 'get_header', 'dxstarter_remove_html_margin' );
+add_theme_support( 'post-thumbnails' ); 

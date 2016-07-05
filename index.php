@@ -22,7 +22,15 @@ get_header(); ?>
 
 					<?php
 					if ( have_posts() ) :
-
+						if ( has_post_thumbnail() ) {
+							the_post_thumbnail();
+						} ?>
+						<div class="comment-bubble">
+   						<a href="<?php comments_link(); ?>">
+      				<?php comments_number( '0', '1 ', '% ' ); ?>
+   						</a>
+						</div>
+						<?php
 						if ( is_home() && ! is_front_page() ) : ?>
 							<header class="page-heading">
 								<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>

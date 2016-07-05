@@ -1184,6 +1184,8 @@ hr.clear {
 
 .entry-meta {
   color: #bfbfbf; }
+  .entry-meta .posted-on {
+    font-weight: bold; }
   .entry-meta a {
     color: #bfbfbf; }
 
@@ -1212,6 +1214,17 @@ hr.clear {
 
 .entry-content {
   font-family: Roboto, "Open Sans", sans-serif; }
+
+.comment-bubble {
+  background-image: url("../images/comment-bubble.png");
+  background-size: 100% 100%;
+  text-align: center;
+  padding-top: 3px;
+  width: 43px;
+  height: 36px;
+  position: relative;
+  left: 500px;
+  bottom: 50px; }
 
 .site-header {
   position: relative;
