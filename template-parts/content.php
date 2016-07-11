@@ -11,14 +11,33 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'entry' ); ?>>
 	<header class="entry-header">
-		<?php
 
-		if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php dxstarter_posted_on(); ?>
-		</div><!-- .entry-meta -->
-		<?php
-		endif; ?>
+		<div class="entry-thumbnail">
+			<?php if ( has_post_thumbnail() ) : the_post_thumbnail();  ?>
+		</div>
+
+		<a href="<?php comments_link(); ?>">
+			<div class="comment-bubble">
+				<?php comments_number( '0', '1 ', '% ' ); ?>
+			</div>
+		</a>
+		<?php if ( 'post' === get_post_type() ) : ?>
+			<div class="entry-meta">
+				<?php dxstarter_posted_on(); ?>
+			</div><!-- .entry-meta -->
+		<?php endif;?>
+		<?php else: ?>
+			<?php if ( 'post' === get_post_type() ) : ?>
+				<div class="entry-meta">
+					<?php dxstarter_posted_on(); ?>
+					<div class = "comment-link">
+						<a href="<?php comment_link(); ?>">
+							<?php comments_number( '0 Comments', ' 1 Comments ', ' % Comments' ); ?>
+						</a>
+					</div>
+				</div><!-- .entry-meta -->
+			<?php endif;?>
+		<?php endif;?>
 		<?php
 		if ( is_single() ) {
 			the_title( '<h1 class="entry-title">', '</h1>' );

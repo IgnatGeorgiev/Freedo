@@ -1153,90 +1153,14 @@ hr.clear {
   .row.narrow {
     max-width: 100%; }
 
-.medium-8 {
+.content-area {
   min-width: 580px; }
 
-.content-area {
-  max-width: 550px; }
-
-.widget_recent_comments {
-  display: inline-block;
-  padding-bottom: 50px;
-  float: left; }
-
-.widget_meta {
-  display: inline-block; }
-  .widget_meta li {
-    padding-bottom: 5px;
-    border-bottom: 1px dashed #bfbfbf;
-    padding-top: 5px; }
-
-.widget-title {
-  margin-bottom: 20px;
-  border-bottom: solid 4px black;
-  font-size: 18px;
-  padding-bottom: 5px; }
-
-.recentcomments {
-  border-bottom: 1px dashed #bfbfbf;
-  margin-bottom: 5px;
-  padding-top: 5px; }
-
-.medium-8 {
+.main-content {
   max-width: 600px; }
 
 .section-main {
   padding-left: 34px; }
-
-.entry-meta {
-  color: #bfbfbf; }
-  .entry-meta .posted-on {
-    font-weight: bold; }
-  .entry-meta a {
-    color: #bfbfbf; }
-
-.post {
-  border-bottom: solid 4px #bfbfbf;
-  margin-bottom: 50px;
-  padding-bottom: 10px; }
-
-.entry-footer a {
-  color: #bfbfbf; }
-
-.entry-footer a:hover {
-  color: #404040; }
-
-.entry .entry-header {
-  padding-bottom: 20px; }
-
-.page-header {
-  padding-bottom: 20px; }
-
-.more-link {
-  font-weight: bold; }
-
-.widget {
-  width: 80%; }
-
-.entry-content {
-  font-family: Roboto, "Open Sans", sans-serif; }
-
-.comment-bubble {
-  background-image: url("../images/comment-bubble.png");
-  background-size: 100% 100%;
-  text-align: center;
-  padding-top: 4px;
-  width: 43px;
-  height: 36px;
-  left: 500px;
-  font-family: Montserrat, Helvetica, sans-serif;
-  position: absolute;
-  margin-left: 50px;
-  margin-top: -50px; }
-
-.small-2 {
-  max-width: 250px;
-  min-width: 200px; }
 
 .site-header {
   position: relative;
@@ -1285,6 +1209,9 @@ hr.clear {
     border: none;
     outline: none;
     font-family: Montserrat, Helvetica, sans-serif; }
+
+.page-header {
+  padding-bottom: 20px; }
 
 .entry-footer {
   padding-left: 2px; }
@@ -1506,3 +1433,74 @@ div.secondary {
   @media (min-width: 640px) {
     .menu-item-has-children .dropdown-arrow {
       display: none; } }
+
+.widget_recent_comments {
+  display: inline-block;
+  padding-bottom: 50px;
+  float: left; }
+
+.widget_meta {
+  display: inline-block; }
+  .widget_meta li {
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #bfbfbf;
+    padding-top: 5px; }
+
+.widget-title {
+  margin-bottom: 20px;
+  border-bottom: solid 4px black;
+  font-size: 18px;
+  padding-bottom: 5px; }
+
+.recentcomments {
+  border-bottom: 1px dashed #bfbfbf;
+  margin-bottom: 5px;
+  padding-top: 5px; }
+
+.widget {
+  width: 80%; }
+
+.entry-meta {
+  color: #bfbfbf; }
+  .entry-meta .posted-on {
+    font-weight: bold; }
+  .entry-meta a {
+    color: #bfbfbf; }
+
+.post {
+  border-bottom: solid 4px #bfbfbf;
+  margin-bottom: 50px;
+  padding-bottom: 10px; }
+
+.entry-footer a {
+  color: #bfbfbf; }
+
+.entry-footer a:hover {
+  color: #404040; }
+
+.entry {
+  position: relative; }
+  .entry .entry-header {
+    padding-bottom: 20px; }
+
+.more-link {
+  font-weight: bold; }
+
+.entry-content {
+  font-family: Roboto, "Open Sans", sans-serif; }
+
+.comment-link {
+  float: right; }
+
+.comment-bubble {
+  background-image: url("../images/comment-bubble.png");
+  background-size: 100% 100%;
+  text-align: center;
+  padding-top: 4px;
+  width: 43px;
+  height: 36px;
+  right: 10px;
+  font-family: Montserrat, Helvetica, sans-serif;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -50px; }

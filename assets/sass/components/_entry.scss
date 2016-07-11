@@ -1,0 +1,42 @@
+.entry-meta {
+	color : #bfbfbf;
+	.posted-on {
+		font-weight: bold;
+	}
+	a {
+		color: #bfbfbf;
+	}
+}
+.post {
+	border-bottom: solid 4px #bfbfbf;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+}
+.entry-footer {
+	a{
+		color: #bfbfbf;
+	}
+	a:hover {
+		color: #404040;
+	}
+}
+
+.entry {
+	position: relative;
+
+	.entry-header {
+		padding-bottom: 20px;
+	}
+}
+
+.more-link {
+	font-weight: bold;
+}
+
+
+.entry-content {
+	font-family: $font-sans;
+}
+.comment-link {
+	float:right;
+}

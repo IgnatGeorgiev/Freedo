@@ -16,20 +16,10 @@ get_header(); ?>
 
 	<section class="section-fullwidth section-main">
 		<div class="row">
-			<div class="columns medium-8">
+			<div class="columns medium-8 main-content">
 				<div id="primary" class="content-area">
 					<main id="main" class="site-main">
-
-					<?php
-					if ( have_posts() ) :
-						if ( has_post_thumbnail() ) {
-							the_post_thumbnail();
-						} ?>
-						<a href="<?php comments_link(); ?>">
-						<div class="comment-bubble">
-      				<?php comments_number( '0', '1 ', '% ' ); ?>
-						</div>
-						</a>
+						<?php if( have_posts() ): ?>
 						<?php
 						if ( is_home() && ! is_front_page() ) : ?>
 							<header class="page-heading">

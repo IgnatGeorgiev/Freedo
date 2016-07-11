@@ -1,0 +1,32 @@
+.widget_recent_comments {
+  display: inline-block;
+	padding-bottom: 50px;
+	float: left;
+}
+
+.widget_meta {
+	display: inline-block;
+
+	li {
+		padding-bottom:5px;
+		border-bottom: 1px dashed #bfbfbf;
+		padding-top: 5px;
+
+	}
+}
+
+.widget-title {
+	margin-bottom : 20px;
+	border-bottom: solid 4px black;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+
+.recentcomments {
+	border-bottom: 1px dashed #bfbfbf;
+	margin-bottom: 5px;
+	padding-top: 5px;
+}
+.widget {
+	width: 80%;
+}

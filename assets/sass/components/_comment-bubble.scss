@@ -1,0 +1,13 @@
+.comment-bubble {
+	background-image: url('../images/comment-bubble.png');
+	background-size: 100% 100%;
+	text-align: center;
+	padding-top: 4px;
+	width: 43px;
+	height: 36px;
+	right: 10px;
+	font-family: $font-heading;
+	position: absolute;
+	margin-left: 50px;
+	margin-top : -50px;
+}
