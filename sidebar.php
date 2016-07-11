@@ -20,7 +20,7 @@ if ( ! is_active_sidebar( 'sidebar-2' ) ) {
 			<?php dynamic_sidebar( 'sidebar-1' ); ?>
 		</aside><!-- #secondary -->
 	</div><!-- .columns medium-4 -->
-	<div class="columns small-2 widgets_wrap second_wrap">
+	<div class="columns small-2 end widgets_wrap second_wrap">
 		<aside class="widget-area second-widget" role="complementary">
 			<?php dynamic_sidebar( 'sidebar-2' ); ?>
 		</aside><!-- #secondary -->
