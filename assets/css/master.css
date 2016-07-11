@@ -1158,7 +1158,8 @@ hr.clear {
 
 .main-content {
   max-width: 600px;
-  margin-right: 35px; }
+  margin-right: 35px;
+  min-width: 220px; }
 
 .section-main {
   padding-left: 34px; }
@@ -1233,11 +1234,18 @@ hr.clear {
   border-bottom: 3px solid #bfbfbf;
   padding-top: 20px; }
 
+.comment-list {
+  padding-left: 10px; }
+
 .comment-metadata a {
   color: #bfbfbf; }
 
+.comment-metadata a:hover {
+  color: black; }
+
 .comment-respond {
-  padding-top: 20px; }
+  padding-top: 20px;
+  padding-left: 10px; }
 
 .form-submit .submit {
   background-color: #ffffff;
@@ -1249,6 +1257,20 @@ hr.clear {
 
 .comment-form-comment label {
   display: none; }
+
+.logged-in-as {
+  padding-top: 5px; }
+  .logged-in-as a {
+    font-weight: bold;
+    color: #bfbfbf; }
+  .logged-in-as a:hover {
+    color: black; }
+
+.reply a {
+  color: #bfbfbf; }
+
+.reply a:hover {
+  color: black; }
 
 /**
  * The standard section wrapper. Use this with other classes for the base styling.
@@ -1460,7 +1482,7 @@ div.secondary {
 
 .widget {
   width: 100%;
-  min-width: 70%; }
+  min-width: 60%; }
 
 .second-widget {
   margin-left: 20px; }

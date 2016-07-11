@@ -1,35 +1,78 @@
 .comments-area {
+
   .comments-title {
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
+
   .comment-body{
     padding-bottom:20px;
     border-bottom: 3px solid #bfbfbf;
-    padding-top:20px;
+    padding-top: 20px;
 
   }
 }
+
+.comment-list {
+	padding-left: 10px
+}
+
 .comment-metadata{
+
   a{
     color: #bfbfbf;
   }
+
+  a:hover {
+	  color: black;
+  }
 }
+
 .comment-respond {
   padding-top : 20px;
+  padding-left: 10px;
 }
+
 .form-submit {
+
   .submit {
     background-color: #ffffff;
     border: 1px solid #bfbfbf;
     border-radius: 5px ;
   }
+
   .submit:hover {
     background-color: #bfbfbf;
   }
 }
+
 .comment-form-comment {
+
 	label {
-		display:none;
+		display: none;
+	}
+}
+
+.logged-in-as {
+	padding-top: 5px;
+
+	a {
+		font-weight:bold;
+		color: #bfbfbf;
+	}
+
+	a:hover {
+		color:black;
+	}
+}
+
+.reply {
+
+	a {
+		color: #bfbfbf;
+	}
+
+	a:hover {
+		color:black;
 	}
 }
