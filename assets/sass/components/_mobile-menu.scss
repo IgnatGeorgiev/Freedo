@@ -174,7 +174,7 @@ body.is-menu-opened {
 		}
 
 		// Simply show the dropdown menu on hover
-		.menu-item-has-children:hover > .sub-menu {
+		.page_item_has_children:hover > .sub-menu {
 			display: block;
 		}
 
@@ -241,7 +241,7 @@ body.is-menu-opened {
  * Styling the dropdown-arrow element. It takes more properties
  * so its in separate module here in the file.
  */
-.menu-item-has-children {
+.page_item_has_children {
 	position: relative;
 
 	.dropdown-arrow {

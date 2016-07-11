@@ -1158,6 +1158,12 @@ hr.clear {
   margin-right: 35px;
   min-width: 220px; }
 
+.page-content {
+  min-width: 600px;
+  padding-bottom: 30px; }
+  .page-content .entry {
+    padding-left: 10px; }
+
 .main-content {
   max-width: 600px;
   margin-right: 35px;
@@ -1216,6 +1222,9 @@ hr.clear {
 
 .page-header {
   padding-bottom: 20px; }
+
+.page_item_has_children {
+  display: block; }
 
 .entry-footer {
   padding-left: 2px; }
@@ -1334,7 +1343,7 @@ div.secondary {
     transition: 0.2s;
     -webkit-transform: translateY(40px);
             transform: translateY(40px); }
-  .main-navigation .menu-item-has-children:hover > .sub-menu {
+  .main-navigation .page_item_has_children:hover > .sub-menu {
     display: block; }
   .main-navigation li {
     position: relative; }
@@ -1383,9 +1392,9 @@ div.secondary {
  * Styling the dropdown-arrow element. It takes more properties
  * so its in separate module here in the file.
  */
-.menu-item-has-children {
+.page_item_has_children {
   position: relative; }
-  .menu-item-has-children .dropdown-arrow {
+  .page_item_has_children .dropdown-arrow {
     height: 2.625rem;
     width: 2.625rem;
     padding: 0;
@@ -1400,16 +1409,16 @@ div.secondary {
     padding: 4px;
     line-height: 1.7;
     font-size: 20px; }
-    .menu-item-has-children .dropdown-arrow, .menu-item-has-children .dropdown-arrow i {
+    .page_item_has_children .dropdown-arrow, .page_item_has_children .dropdown-arrow i {
       -webkit-user-select: none;
          -moz-user-select: none;
           -ms-user-select: none;
               user-select: none; }
-  .menu-item-has-children.is-extended .dropdown-arrow {
+  .page_item_has_children.is-extended .dropdown-arrow {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg); }
   @media (min-width: 640px) {
-    .menu-item-has-children .dropdown-arrow {
+    .page_item_has_children .dropdown-arrow {
       display: none; } }
 
 .widget_recent_comments {
