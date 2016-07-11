@@ -1,10 +1,13 @@
 .row {
 	max-width: 100%;
+	display:flex;
 	&.narrow {
 		max-width: 100%;
 	}
 }
-
+.medium-8 {
+	min-width: 580px;
+}
 .content-area {
 	max-width: 550px;
 }
@@ -85,8 +88,13 @@
 	 padding-top:4px;
    width: 43px;
    height: 36px;
-	 position:relative;
 	 left:500px;
-	 bottom:50px;
 	 font-family: $font-heading;
+	 position: absolute;
+	 margin-left: 50px;
+	 margin-top : -50px;
+}
+.small-2 {
+	max-width:250px;
+	min-width:200px;
 }

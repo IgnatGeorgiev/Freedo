@@ -1146,9 +1146,15 @@ hr.clear {
   z-index: 1; }
 
 .row {
-  max-width: 100%; }
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
   .row.narrow {
     max-width: 100%; }
+
+.medium-8 {
+  min-width: 580px; }
 
 .content-area {
   max-width: 550px; }
@@ -1222,10 +1228,15 @@ hr.clear {
   padding-top: 4px;
   width: 43px;
   height: 36px;
-  position: relative;
   left: 500px;
-  bottom: 50px;
-  font-family: Montserrat, Helvetica, sans-serif; }
+  font-family: Montserrat, Helvetica, sans-serif;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -50px; }
+
+.small-2 {
+  max-width: 250px;
+  min-width: 200px; }
 
 .site-header {
   position: relative;
