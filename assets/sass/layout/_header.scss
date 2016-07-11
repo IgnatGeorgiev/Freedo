@@ -19,29 +19,73 @@
 	font-weight: bold;
 }
 .main-navigation {
+
 	width: 100%;
 	border-top: solid 1px #bfbfbf;
 	position: relative;
 	line-height: 34px;
 	margin: 10px 0px 20px 0px;
 	text-align: left;
-	.page_item {
-		display: inline-block;
-		margin: 0px 30px 0px 30px;
-		height:34px;
-		border-top: 4px solid white;
-	}
-	.page_item:hover {
-		border-top: 4px solid black;
-	}
 	a {
-		color:#828181;
+		font-weight:normal;
+	}
+	.menu {
+		.current_page_item {
+			display: inline-block;
+			margin: 0px 30px 0px 30px;
+			height:34px;
 
+			a {
+				color: black;
+			}
+			border-top: 4px solid black;
+		}
+
+		.menu-item:not(.current_page_item) {
+			display: inline-block;
+			margin: 0px 30px 0px 30px;
+			height:34px;
+			border-top: 4px solid white;
+
+			a {
+				font-weight:normal;
+				color:#828181;
+
+			}
+			a:hover {
+				font-weight:normal;
+				color: black;
+			}
+		}
+
+		.menu-item:hover {
+			border-top: 4px solid black;
+		}
+
+
+		font-family:$font-heading;
 	}
-	a:hover {
-		color : black;
+
+	.sub-menu {
+		padding-bottom: 15px;
+		.menu-item:not(.current_page_item) {
+			margin: 0px 0px 0px 0px;
+			border:none;
+		}
+		.menu-item:hover {
+			border:none;
+		}
+		.current_page_item {
+			display: inline-block;
+			margin: 0px 0px 0px 0px;
+			height:34px;
+
+			a {
+				color: black;
+			}
+			border-top: none;
+		}
 	}
-	font-family:$font-heading;
 }
 .search-form {
 	float:right;
@@ -56,8 +100,4 @@
 }
 .page-header {
 	padding-bottom : 20px;
-}
-
-.page_item_has_children {
-	display: block;
 }

@@ -1197,19 +1197,45 @@ hr.clear {
   position: relative;
   line-height: 34px;
   margin: 10px 0px 20px 0px;
-  text-align: left;
-  font-family: Montserrat, Helvetica, sans-serif; }
-  .main-navigation .page_item {
-    display: inline-block;
-    margin: 0px 30px 0px 30px;
-    height: 34px;
-    border-top: 4px solid white; }
-  .main-navigation .page_item:hover {
-    border-top: 4px solid black; }
+  text-align: left; }
   .main-navigation a {
-    color: #828181; }
-  .main-navigation a:hover {
-    color: black; }
+    font-weight: normal; }
+  .main-navigation .menu {
+    font-family: Montserrat, Helvetica, sans-serif; }
+    .main-navigation .menu .current_page_item {
+      display: inline-block;
+      margin: 0px 30px 0px 30px;
+      height: 34px;
+      border-top: 4px solid black; }
+      .main-navigation .menu .current_page_item a {
+        color: black; }
+    .main-navigation .menu .menu-item:not(.current_page_item) {
+      display: inline-block;
+      margin: 0px 30px 0px 30px;
+      height: 34px;
+      border-top: 4px solid white; }
+      .main-navigation .menu .menu-item:not(.current_page_item) a {
+        font-weight: normal;
+        color: #828181; }
+      .main-navigation .menu .menu-item:not(.current_page_item) a:hover {
+        font-weight: normal;
+        color: black; }
+    .main-navigation .menu .menu-item:hover {
+      border-top: 4px solid black; }
+  .main-navigation .sub-menu {
+    padding-bottom: 15px; }
+    .main-navigation .sub-menu .menu-item:not(.current_page_item) {
+      margin: 0px 0px 0px 0px;
+      border: none; }
+    .main-navigation .sub-menu .menu-item:hover {
+      border: none; }
+    .main-navigation .sub-menu .current_page_item {
+      display: inline-block;
+      margin: 0px 0px 0px 0px;
+      height: 34px;
+      border-top: none; }
+      .main-navigation .sub-menu .current_page_item a {
+        color: black; }
 
 .search-form {
   float: right; }
@@ -1222,9 +1248,6 @@ hr.clear {
 
 .page-header {
   padding-bottom: 20px; }
-
-.page_item_has_children {
-  display: block; }
 
 .entry-footer {
   padding-left: 2px; }
