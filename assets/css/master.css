@@ -1441,11 +1441,15 @@ div.secondary {
   width: 100%;
   min-width: 60%; }
 
-.second-widget {
-  margin-left: 20px; }
+.first-widget {
+  margin-right: 20px; }
 
 .widgets_wrap {
-  min-width: 150px; }
+  min-width: 350px;
+  display: inline-block; }
+
+.first_wrap {
+  float: left; }
 
 .entry-meta {
   color: #bfbfbf; }
