@@ -31,7 +31,7 @@
 				<div class="entry-meta">
 					<?php dxstarter_posted_on(); ?>
 					<div class = "comment-link">
-						<a href="<?php comment_link(); ?>">
+						<a href="<?php comments_link(); ?>">
 							<?php comments_number( '0 Comments', ' 1 Comments ', ' % Comments' ); ?>
 						</a>
 					</div>

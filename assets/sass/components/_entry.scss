@@ -1,8 +1,10 @@
 .entry-meta {
-	color : #bfbfbf;
+	color: #bfbfbf;
+
 	.posted-on {
 		font-weight: bold;
 	}
+
 	a {
 		color: #bfbfbf;
 	}
@@ -37,6 +39,7 @@
 .entry-content {
 	font-family: $font-sans;
 }
+
 .comment-link {
-	float:right;
+	float: right;
 }

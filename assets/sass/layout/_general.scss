@@ -1,7 +1,7 @@
 .row {
 	max-width: 100%;
-	display:flex;
-	
+	display: flex;
+
 	&.narrow {
 		max-width: 100%;
 	}
@@ -13,6 +13,7 @@
 
 .main-content {
 	max-width: 600px;
+	margin-right:35px;
 }
 
 .section-main {

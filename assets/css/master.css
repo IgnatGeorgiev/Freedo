@@ -1157,7 +1157,8 @@ hr.clear {
   min-width: 580px; }
 
 .main-content {
-  max-width: 600px; }
+  max-width: 600px;
+  margin-right: 35px; }
 
 .section-main {
   padding-left: 34px; }
