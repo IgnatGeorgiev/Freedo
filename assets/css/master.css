@@ -1442,14 +1442,16 @@ div.secondary {
   min-width: 60%; }
 
 .first-widget {
-  margin-right: 20px; }
+  margin-right: 30px;
+  width: 100%; }
 
 .widgets_wrap {
   min-width: 350px;
   display: inline-block; }
 
 .first_wrap {
-  float: left; }
+  float: left;
+  margin-right: 15px; }
 
 .entry-meta {
   color: #bfbfbf; }
@@ -1497,30 +1499,27 @@ div.secondary {
   margin-top: -50px; }
 
 .comments-area .comments-title {
-  padding-top: 10px;
-  padding-bottom: 10px; }
+  padding: 10px 0px 10px 0px; }
 
 .comments-area .comment-body {
   padding-bottom: 20px;
-  border-bottom: 3px solid #bfbfbf;
+  border-bottom: 1px solid #d4d4d4;
   padding-top: 20px; }
 
 .comment-list {
   padding-left: 10px; }
 
-.comment-author {
-  padding-bottom: 5px; }
-
-.comment-metadata a {
-  font-weight: bold;
-  color: #585858; }
-
-.comment-metadata a:hover {
-  color: black; }
+.comment-metadata {
+  padding-left: 40px;
+  display: inline-block; }
+  .comment-metadata a {
+    font-weight: bold;
+    color: #585858; }
+  .comment-metadata a:hover {
+    color: black; }
 
 .comment-respond {
-  padding-top: 20px;
-  padding-left: 10px; }
+  padding: 20px 0px 0px 10px; }
 
 .form-submit .submit {
   background-color: #ffffff;
@@ -1541,14 +1540,24 @@ div.secondary {
   .logged-in-as a:hover {
     color: black; }
 
-.reply a {
-  font-weight: bold;
-  color: #585858; }
-
-.reply a:hover {
-  color: black; }
+.reply {
+  padding-left: 40px; }
+  .reply a {
+    font-weight: bold;
+    color: #585858; }
+  .reply a:hover {
+    color: black; }
 
 .comment-content {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px; }
+  padding: 15px 0px 15px 0px;
+  padding-left: 40px; }
+
+.vcard .avatar {
+  margin-bottom: -20px;
+  border-radius: 50%; }
+
+.vcard .fn {
+  padding-left: 4px; }
+
+.comment-meta {
+  font-size: 15px; }
