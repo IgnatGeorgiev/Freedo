@@ -1508,9 +1508,12 @@ div.secondary {
 .comment-list {
   padding-left: 10px; }
 
+.comment-author {
+  padding-bottom: 5px; }
+
 .comment-metadata a {
   font-weight: bold;
-  color: #bfbfbf; }
+  color: #585858; }
 
 .comment-metadata a:hover {
   color: black; }
@@ -1534,12 +1537,18 @@ div.secondary {
   padding-top: 5px; }
   .logged-in-as a {
     font-weight: bold;
-    color: #bfbfbf; }
+    color: #585858; }
   .logged-in-as a:hover {
     color: black; }
 
 .reply a {
-  color: #bfbfbf; }
+  font-weight: bold;
+  color: #585858; }
 
 .reply a:hover {
   color: black; }
+
+.comment-content {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px; }

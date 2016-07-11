@@ -1,26 +1,30 @@
 .comments-area {
 
-  .comments-title {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+	.comments-title {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 
-  .comment-body{
-    padding-bottom:20px;
-    border-bottom: 3px solid #bfbfbf;
-    padding-top: 20px;
-  }
+	.comment-body{
+		padding-bottom:20px;
+		border-bottom: 3px solid #bfbfbf;
+		padding-top: 20px;
+	}
 }
 
 .comment-list {
 	padding-left: 10px
 }
 
+.comment-author {
+	padding-bottom:5px;
+}
+
 .comment-metadata{
 
 	a{
 		font-weight:bold;
-		color: #bfbfbf;
+		color: #585858;
 	}
 
 	a:hover {
@@ -58,7 +62,7 @@
 
 	a {
 		font-weight:bold;
-		color: #bfbfbf;
+		color: #585858;
 	}
 
 	a:hover {
@@ -69,10 +73,17 @@
 .reply {
 
 	a {
-		color: #bfbfbf;
+		font-weight:bold;
+		color: #585858;
 	}
 
 	a:hover {
 		color:black;
 	}
+}
+
+.comment-content {
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
 }
