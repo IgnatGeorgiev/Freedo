@@ -1154,7 +1154,9 @@ hr.clear {
     max-width: 100%; }
 
 .content-area {
-  max-width: 700px; }
+  max-width: 700px;
+  margin-right: 35px;
+  min-width: 220px; }
 
 .main-content {
   max-width: 600px;
@@ -1224,53 +1226,6 @@ hr.clear {
 #colophon {
   padding-top: 10px;
   margin-left: 34px; }
-
-.comments-area .comments-title {
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-.comments-area .comment-body {
-  padding-bottom: 20px;
-  border-bottom: 3px solid #bfbfbf;
-  padding-top: 20px; }
-
-.comment-list {
-  padding-left: 10px; }
-
-.comment-metadata a {
-  color: #bfbfbf; }
-
-.comment-metadata a:hover {
-  color: black; }
-
-.comment-respond {
-  padding-top: 20px;
-  padding-left: 10px; }
-
-.form-submit .submit {
-  background-color: #ffffff;
-  border: 1px solid #bfbfbf;
-  border-radius: 5px; }
-
-.form-submit .submit:hover {
-  background-color: #bfbfbf; }
-
-.comment-form-comment label {
-  display: none; }
-
-.logged-in-as {
-  padding-top: 5px; }
-  .logged-in-as a {
-    font-weight: bold;
-    color: #bfbfbf; }
-  .logged-in-as a:hover {
-    color: black; }
-
-.reply a {
-  color: #bfbfbf; }
-
-.reply a:hover {
-  color: black; }
 
 /**
  * The standard section wrapper. Use this with other classes for the base styling.
@@ -1465,9 +1420,9 @@ div.secondary {
 .widget_meta {
   display: inline-block; }
   .widget_meta li {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     border-bottom: 1px dashed #bfbfbf;
-    padding-top: 5px; }
+    padding-top: 10px; }
 
 .widget-title {
   margin-bottom: 20px;
@@ -1479,6 +1434,8 @@ div.secondary {
   border-bottom: 1px dashed #bfbfbf;
   margin-bottom: 5px;
   padding-top: 5px; }
+  .recentcomments .comment-author-link {
+    font-weight: bold; }
 
 .widget {
   width: 100%;
@@ -1486,6 +1443,9 @@ div.secondary {
 
 .second-widget {
   margin-left: 20px; }
+
+.widgets_wrap {
+  min-width: 150px; }
 
 .entry-meta {
   color: #bfbfbf; }
@@ -1531,3 +1491,51 @@ div.secondary {
   position: absolute;
   margin-left: 50px;
   margin-top: -50px; }
+
+.comments-area .comments-title {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.comments-area .comment-body {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #bfbfbf;
+  padding-top: 20px; }
+
+.comment-list {
+  padding-left: 10px; }
+
+.comment-metadata a {
+  font-weight: bold;
+  color: #bfbfbf; }
+
+.comment-metadata a:hover {
+  color: black; }
+
+.comment-respond {
+  padding-top: 20px;
+  padding-left: 10px; }
+
+.form-submit .submit {
+  background-color: #ffffff;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px; }
+
+.form-submit .submit:hover {
+  background-color: #bfbfbf; }
+
+.comment-form-comment label {
+  display: none; }
+
+.logged-in-as {
+  padding-top: 5px; }
+  .logged-in-as a {
+    font-weight: bold;
+    color: #bfbfbf; }
+  .logged-in-as a:hover {
+    color: black; }
+
+.reply a {
+  color: #bfbfbf; }
+
+.reply a:hover {
+  color: black; }

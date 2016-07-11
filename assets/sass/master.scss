@@ -25,7 +25,7 @@
 @import "layout/general";
 @import "layout/header";
 @import "layout/footer";
-@import "layout/comments";
+
 
 
 // Any other module that can be reused multuple times.
@@ -37,6 +37,7 @@
 @import "components/widgets";
 @import "components/entry";
 @import "components/comment-bubble";
+@import "components/comments";
 
 
 // If there is anything specific for a page it should be in this folder
