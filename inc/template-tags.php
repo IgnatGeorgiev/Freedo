@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package DevriX_Starter
+ * @package Freedo
  */
 
 if ( ! function_exists( 'dxstarter_posted_on' ) ) :

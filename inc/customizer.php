@@ -2,7 +2,7 @@
 /**
  * DevriX Starter Theme Customizer.
  *
- * @package DevriX_Starter
+ * @package Freedo
  */
 
 /**

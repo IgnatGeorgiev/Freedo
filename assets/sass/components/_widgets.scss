@@ -19,7 +19,7 @@
 	margin-bottom : 20px;
 	border-bottom: solid 4px black;
 	font-size: 18px;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 }
 
 .recentcomments {
@@ -29,5 +29,10 @@
 }
 
 .widget {
-	width: 80%;
+	width: 100%;
+	min-width:70%;
+}
+
+.second-widget {
+	margin-left: 20px;
 }
