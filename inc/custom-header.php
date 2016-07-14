@@ -18,27 +18,27 @@
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses dxstarter_header_style()
+ * @uses freedo_header_style()
  */
-function dxstarter_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'dxstarter_custom_header_args', array(
+function freedo_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'freedo_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'dxstarter_header_style',
+		'wp-head-callback'       => 'freedo_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'dxstarter_custom_header_setup' );
+add_action( 'after_setup_theme', 'freedo_custom_header_setup' );
 
-if ( ! function_exists( 'dxstarter_header_style' ) ) :
+if ( ! function_exists( 'freedo_header_style' ) ) :
 /**
  * Styles the header image and text displayed on the blog.
  *
- * @see dxstarter_custom_header_setup().
+ * @see freedo_custom_header_setup().
  */
-function dxstarter_header_style() {
+function freedo_header_style() {
 	$header_text_color = get_header_textcolor();
 
 	/*
