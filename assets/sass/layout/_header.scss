@@ -67,18 +67,19 @@
 	}
 
 	.sub-menu {
+		margin-left: -10px;
 		padding-bottom: 15px;
 		.menu-item:not(.current_page_item) {
 			margin: 0px 0px 0px 0px;
-			border:none;
+			border: none;
 		}
 		.menu-item:hover {
-			border:none;
+			border: none;
 		}
 		.current_page_item {
 			display: inline-block;
 			margin: 0px 0px 0px 0px;
-			height:34px;
+			height: 34px;
 
 			a {
 				color: black;

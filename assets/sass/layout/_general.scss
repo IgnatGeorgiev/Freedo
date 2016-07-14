@@ -10,8 +10,50 @@
 .content-area {
 	max-width: 700px;
 	margin-right:35px;
-	min-width:220px
+	min-width:220px;
 
+	ul {
+		padding-left:30px;
+		list-style-type: circle;
+		li {
+			ul{
+			list-style-type:disc;
+			padding-left: 15px;
+			}
+			ol {
+				padding-left: 15px;
+			}
+		}
+	}
+	ol:not(.comment-list) {
+		padding-left:30px;
+		list-style-type: decimal;
+		li {
+			ol {
+				padding-left: 15px;
+			}
+			ul {
+				padding-left: 15px;
+			}
+		}
+	}
+	code {
+		background: #eeeeee;
+	}
+	h2 {
+		padding-top: 10px;
+	}
+	table {
+		text-align: left;
+		td {
+			padding:5px 5px 5px 5px;
+			border:1px solid #c1c1c1;
+		}
+		th {
+			padding:5px 5px 5px 5px;
+			border:1px solid #c1c1c1;
+		}
+	}
 }
 .page-content {
 	min-width:600px;

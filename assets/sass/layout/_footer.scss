@@ -1,10 +1,22 @@
 .entry-footer {
-  padding-left :2px;
+  padding-left: 2px;
+  padding-top: 10px;
 }
+
 .edit-link {
-  padding-left : 10px;
+  padding-left: 10px;
 }
-#colophon {
-  padding-top : 10px;
+
+.site-footer {
+  padding-top: 10px;
   margin-left: 34px;
+}
+
+.nav-links {
+	a {
+		font-weight: bold;
+
+	}
+
+	padding-bottom: 30px;
 }

@@ -22,7 +22,7 @@ After you start working on the theme you can change the strings to match the the
 Use Flex layout - 3 boxes for content | sidebar | sidebar with set max-width or flex-basis. You can use 100% width and x% max-width for each column.
 
 ## Some more other links to look into
- 
+
  - [Sass](http://sass-lang.com/guide)
  - [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
  - [Git](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html) - We use github, but its the same for shell usage
@@ -30,7 +30,7 @@ Use Flex layout - 3 boxes for content | sidebar | sidebar with set max-width or 
  - [LoL champion select](https://www.livecoding.tv/xavortm/videos/) - 6 hours of creating champion select screen for LoL. I am not sure for the order or if there is missing video, but you can probably find something useful from what's on.
 
 ## Small frontend tips
- 
+
  - Do not use !important. If you need, ask Alex or Fernando first.
  - Using background image for post featured images is often bad idea.
  - Do not nest too much with Sass. 3 levels deep max. If you need more consult
@@ -38,4 +38,31 @@ Use Flex layout - 3 boxes for content | sidebar | sidebar with set max-width or 
  - Use Owl.Carousel for sliders if needed.
  - Use float as little as possible. Flexbox is good thing to do.
  - Use google fonts when needed.
- - 
+ -
+
+##Copyright
+
+Image used in comment-bubble.png: An image by Marian Sigler {bla} (Self-drawn using gedit and Inkscape) [Public domain], via Wikimedia Commons (https://commons.wikimedia.org/wiki/File%3ASpeech_balloon.svg)
+
+Fonts used:
+
+Roboto:
+Copyright: Christian Robertson
+License: Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+Source: https://fonts.google.com/specimen/Roboto?query=Roboto
+
+Montserrat:
+Copyright: Julieta Ulanovsky
+License: Open Font License (http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
+Source: https://fonts.google.com/specimen/Montserrat?query=Montserrat
+
+Base theme used:
+Copyright: DevriX
+License: GNU General Public License v2 (http://www.gnu.org/licenses/gpl-2.0.html)
+Source: https://github.com/DevriX/DX-Starter
+
+## Changelog
+
+1.0
+Released: datehere
+Initial release

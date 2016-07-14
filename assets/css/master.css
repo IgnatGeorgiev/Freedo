@@ -1157,6 +1157,33 @@ hr.clear {
   max-width: 700px;
   margin-right: 35px;
   min-width: 220px; }
+  .content-area ul {
+    padding-left: 30px;
+    list-style-type: circle; }
+    .content-area ul li ul {
+      list-style-type: disc;
+      padding-left: 15px; }
+    .content-area ul li ol {
+      padding-left: 15px; }
+  .content-area ol:not(.comment-list) {
+    padding-left: 30px;
+    list-style-type: decimal; }
+    .content-area ol:not(.comment-list) li ol {
+      padding-left: 15px; }
+    .content-area ol:not(.comment-list) li ul {
+      padding-left: 15px; }
+  .content-area code {
+    background: #eeeeee; }
+  .content-area h2 {
+    padding-top: 10px; }
+  .content-area table {
+    text-align: left; }
+    .content-area table td {
+      padding: 5px 5px 5px 5px;
+      border: 1px solid #c1c1c1; }
+    .content-area table th {
+      padding: 5px 5px 5px 5px;
+      border: 1px solid #c1c1c1; }
 
 .page-content {
   min-width: 600px;
@@ -1223,6 +1250,7 @@ hr.clear {
     .main-navigation .menu .menu-item:hover {
       border-top: 4px solid black; }
   .main-navigation .sub-menu {
+    margin-left: -10px;
     padding-bottom: 15px; }
     .main-navigation .sub-menu .menu-item:not(.current_page_item) {
       margin: 0px 0px 0px 0px;
@@ -1250,14 +1278,20 @@ hr.clear {
   padding-bottom: 20px; }
 
 .entry-footer {
-  padding-left: 2px; }
+  padding-left: 2px;
+  padding-top: 10px; }
 
 .edit-link {
   padding-left: 10px; }
 
-#colophon {
+.site-footer {
   padding-top: 10px;
   margin-left: 34px; }
+
+.nav-links {
+  padding-bottom: 30px; }
+  .nav-links a {
+    font-weight: bold; }
 
 /**
  * The standard section wrapper. Use this with other classes for the base styling.
