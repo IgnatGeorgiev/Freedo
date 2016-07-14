@@ -48,6 +48,7 @@ Base theme used:
 - Copyright: DevriX
 - License: GNU General Public License v2 (http://www.gnu.org/licenses/gpl-2.0.html)
 - Source: https://github.com/DevriX/DX-Starter
+
 Fonts used:
 
 Roboto:
