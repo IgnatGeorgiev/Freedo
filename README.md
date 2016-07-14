@@ -44,6 +44,10 @@ Use Flex layout - 3 boxes for content | sidebar | sidebar with set max-width or 
 
 Image used in comment-bubble.png: An image by Marian Sigler {bla} (Self-drawn using gedit and Inkscape) [Public domain], via Wikimedia Commons (https://commons.wikimedia.org/wiki/File%3ASpeech_balloon.svg)
 
+Base theme used:
+- Copyright: DevriX
+- License: GNU General Public License v2 (http://www.gnu.org/licenses/gpl-2.0.html)
+- Source: https://github.com/DevriX/DX-Starter
 Fonts used:
 
 Roboto:
@@ -56,10 +60,7 @@ Montserrat:
 - License: Open Font License (http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
 - Source: https://fonts.google.com/specimen/Montserrat?query=Montserrat
 
-Base theme used:
-- Copyright: DevriX
-- License: GNU General Public License v2 (http://www.gnu.org/licenses/gpl-2.0.html)
-- Source: https://github.com/DevriX/DX-Starter
+
 
 ## Changelog
 
