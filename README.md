@@ -19,6 +19,9 @@ Montserrat:
 - License: Open Font License (http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
 - Source: https://fonts.google.com/specimen/Montserrat?query=Montserrat
 
+FontAwesome:
+- Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+- License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
 
 
 ## Changelog

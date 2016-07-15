@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Return proper color depending on background.
  *
@@ -1175,7 +1176,9 @@ hr.clear {
   .content-area code {
     background: #eeeeee; }
   .content-area h2 {
-    padding-top: 10px; }
+    padding-top: 2px; }
+  .content-area .entry-meta {
+    padding-top: 15px; }
   .content-area table {
     text-align: left; }
     .content-area table td {
@@ -1272,7 +1275,14 @@ hr.clear {
   .search-form .search-field {
     border: none;
     outline: none;
-    font-family: Montserrat, Helvetica, sans-serif; }
+    font-family: Montserrat, Helvetica, sans-serif;
+    float: left; }
+
+.search-form::after {
+  content: "";
+  font-family: FontAwesome;
+  float: right;
+  padding-right: 10px; }
 
 .page-header {
   padding-bottom: 20px; }
@@ -1506,6 +1516,35 @@ div.secondary {
 .widget {
   width: 100%;
   min-width: 60%; }
+  .widget .menu {
+    padding-left: 30px;
+    list-style-type: circle; }
+    .widget .menu li {
+      max-height: 70px;
+      border: none;
+      padding-bottom: 5px;
+      padding-top: 5px; }
+      .widget .menu li a:hover {
+        background: transparent;
+        color: #4072db; }
+      .widget .menu li ul {
+        list-style-type: disc;
+        display: inline;
+        padding-left: 15px;
+        position: relative;
+        border: none; }
+      .widget .menu li ol {
+        display: inline;
+        padding-left: 15px; }
+  .widget ol {
+    padding-left: 30px;
+    list-style-type: decimal; }
+    .widget ol li ol {
+      display: inline;
+      padding-left: 15px; }
+    .widget ol li ul {
+      display: inline;
+      padding-left: 15px; }
 
 .first-widget {
   margin-right: 30px;
@@ -1540,7 +1579,7 @@ div.secondary {
 .entry {
   position: relative; }
   .entry .entry-header {
-    padding-bottom: 20px; }
+    padding-bottom: 10px; }
 
 .more-link {
   font-weight: bold; }

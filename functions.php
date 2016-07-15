@@ -123,7 +123,7 @@ add_action( 'after_setup_theme', 'freedo_content_width', 0 );
 *
 *
 */
-function modify_read_more_link() {
+function freedo_modify_read_more_link() {
     return '<a class="more-link" href="' . get_permalink() . '">READ MORE</a>';
 }
 add_filter( 'the_content_more_link', 'modify_read_more_link' );
@@ -177,4 +177,4 @@ function freedo_remove_html_margin() {
 	remove_action( 'wp_head', '_admin_bar_bump_cb' );
 }
 add_action( 'get_header', 'freedo_remove_html_margin' );
-add_theme_support( 'post-thumbnails' ); 
+add_theme_support( 'post-thumbnails' );

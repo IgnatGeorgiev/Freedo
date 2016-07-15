@@ -40,7 +40,9 @@
 						<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
 					<?php
 					endif; ?>
-					<?php get_search_form();?>
+					<div class="search_form">
+						<?php get_search_form();?>
+					</div>
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation">

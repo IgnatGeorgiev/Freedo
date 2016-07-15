@@ -34,6 +34,47 @@
 .widget {
 	width: 100%;
 	min-width:60%;
+	.menu {
+		padding-left:30px;
+		list-style-type: circle;
+
+		li {
+			a:hover {
+				background: transparent;
+				color: #4072db;
+			}
+			max-height: 70px;
+			border:none;
+			padding-bottom:5px;
+			padding-top:5px;
+			ul{
+			list-style-type:disc;
+			display:inline;
+			padding-left: 15px;
+			position: relative;
+			border: none;
+
+			}
+			ol {
+				display:inline;
+				padding-left: 15px;
+			}
+		}
+	}
+	ol{
+		padding-left:30px;
+		list-style-type: decimal;
+		li {
+			ol {
+				display: inline;
+				padding-left: 15px;
+			}
+			ul {
+				display:inline;
+				padding-left: 15px;
+			}
+		}
+	}
 }
 
 .first-widget {

@@ -97,7 +97,16 @@
 		border:none;
 		outline:none;
 		font-family:$font-heading;
+		float:left;
 	}
+
+}
+.search-form::after {
+	content:"";
+	font-family: FontAwesome;
+	float:right;
+	padding-right:10px;
+
 }
 .page-header {
 	padding-bottom : 20px;
