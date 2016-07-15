@@ -1268,11 +1268,11 @@ hr.clear {
       .main-navigation .sub-menu .current_page_item a {
         color: black; }
 
-.search-form {
+.site-header .search-form {
   float: right; }
-  .search-form .search-submit {
+  .site-header .search-form .search-submit {
     display: none; }
-  .search-form .search-field {
+  .site-header .search-form .search-field {
     border: none;
     outline: none;
     font-family: Montserrat, Helvetica, sans-serif;
@@ -1514,8 +1514,45 @@ div.secondary {
     font-weight: bold; }
 
 .widget {
+  padding-bottom: 30px;
+  padding-top: 30px;
   width: 100%;
   min-width: 60%; }
+  .widget.widget_search form {
+    float: none; }
+  .widget.widget_search .search-submit {
+    display: none; }
+  .widget.widget_search .search-field {
+    border: none;
+    outline: none;
+    font-family: Montserrat, Helvetica, sans-serif;
+    float: left; }
+  .widget .search-form::after {
+    content: "";
+    font-family: FontAwesome;
+    float: right;
+    padding-right: 10px; }
+  .widget.widget_categories .children {
+    margin-left: 20px; }
+  .widget.widget_categories .postform {
+    width: 100%; }
+  .widget.widget_pages .children {
+    margin-left: 20px; }
+  .widget.widget_rss li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #ddd; }
+    .widget.widget_rss li a {
+      font-weight: bold; }
+    .widget.widget_rss li .rss-date {
+      font-style: italic; }
+    .widget.widget_rss li .rssSummary {
+      padding-top: 10px;
+      padding-bottom: 10px; }
+  .widget.widget_rss li:last-child {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: none; }
   .widget .menu {
     padding-left: 30px;
     list-style-type: circle; }
@@ -1546,6 +1583,10 @@ div.secondary {
       display: inline;
       padding-left: 15px; }
 
+ul li {
+  padding-bottom: 5px;
+  padding-top: 5px; }
+
 .first-widget {
   margin-right: 30px;
   width: 100%; }
@@ -1557,6 +1598,12 @@ div.secondary {
 .first_wrap {
   float: left;
   margin-right: 15px; }
+
+form select {
+  width: 100%; }
+
+table thead {
+  text-align: left; }
 
 .entry-meta {
   color: #bfbfbf; }

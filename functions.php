@@ -126,7 +126,7 @@ add_action( 'after_setup_theme', 'freedo_content_width', 0 );
 function freedo_modify_read_more_link() {
     return '<a class="more-link" href="' . get_permalink() . '">READ MORE</a>';
 }
-add_filter( 'the_content_more_link', 'modify_read_more_link' );
+add_filter( 'the_content_more_link', 'freedo_modify_read_more_link' );
 /**
  * Register widget area.
  *
